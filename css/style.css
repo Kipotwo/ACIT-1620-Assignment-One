@@ -57,18 +57,57 @@ button{
     color: white;
 }
 
+textarea{
+    width: 85%;
+    height: 85%;
+    border-radius: 1rem;
+}
+
 .one{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
     background-color: #559e5f;
 }
 
 .two{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
     background-color: gray;
 }
 
 .three{
+    position: relative;
     background-color: #65ba70;
+    margin-top: 1rem;
+    margin-right: 1em;
+    margin-bottom: 1rem;
 }
 
 .four{
+    position: relative;
     background-color: #d12c2c;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    height: 80%;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.flex{
+    flex-direction: column;
 }
