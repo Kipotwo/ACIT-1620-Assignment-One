@@ -63,6 +63,14 @@ textarea{
     border-radius: 1rem;
 }
 
+h1{
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: lighter;
+}
+
 .one{
     position: absolute;
     top: 1rem;
