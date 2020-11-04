@@ -48,3 +48,27 @@ img{
     height: 3rem;
     width: auto;
 }
+
+button{
+    padding: 0.75rem;
+    height: auto;
+    width: auto;
+    border-radius: 0.75rem;
+    color: white;
+}
+
+.one{
+    background-color: #559e5f;
+}
+
+.two{
+    background-color: gray;
+}
+
+.three{
+    background-color: #65ba70;
+}
+
+.four{
+    background-color: #d12c2c;
+}
