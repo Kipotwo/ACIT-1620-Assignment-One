@@ -18,7 +18,7 @@ header{
     background-color: #8f6561;
 }
 
-aside{
+nav{
     grid-column: 1/2;
     grid-row: 2/15;
     background-color: gray;
@@ -71,21 +71,21 @@ h2{
     font-weight: lighter;
 }
 
-.one{
+.new{
     position: absolute;
     top: 1rem;
     left: 1rem;
     background-color: #559e5f;
 }
 
-.two{
+.dark{
     position: absolute;
     top: 1rem;
     right: 1rem;
     background-color: gray;
 }
 
-.three{
+.save{
     position: relative;
     background-color: #65ba70;
     margin-top: 1rem;
@@ -93,7 +93,7 @@ h2{
     margin-bottom: 1rem;
 }
 
-.four{
+.cancel{
     position: relative;
     background-color: #d12c2c;
     margin-top: 1rem;
@@ -118,4 +118,12 @@ h2{
 
 section.flex{
     flex-direction: column;
+}
+
+nav.darkmode{
+    background-color: darkslategrey;
+}
+
+section.darkmode{
+    background-color: gray;
 }
