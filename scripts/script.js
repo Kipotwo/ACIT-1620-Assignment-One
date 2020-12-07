@@ -57,6 +57,24 @@ function saveNote(){
     note = {title: title, body: linesOfText}
     notesArray.push(note)
     console.log(notesArray)
+
+    let nav = document.querySelector('nav')
+    
+    let newTitle = document.createElement('h1')
+    let noteTitle = document.createTextNode(title)
+    newTitle.append(noteTitle)
+    nav.append(newTitle)
+
+    let noteInfo = document.createElement('ul')
+
+    for (let i of linesOfText){
+        let newNote = document.createElement('li')
+        let noteStuff = document.createTextNode(i)
+        newNote.append(noteStuff)
+        noteInfo.append(newNote)
+    }
+
+    nav.append(noteInfo)
 }
 
 
