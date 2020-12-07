@@ -75,6 +75,17 @@ function saveNote(){
     }
 
     nav.append(noteInfo)
+    
+    listedItem = document.querySelectorAll('li')
+    for (let i = 0; i < listedItem.length; i++){
+        listedItem[i].addEventListener('click', getItem(listedItem[i]))
+    }
+}
+
+
+function getItem(item){
+    content = item.innerHTML
+    console.log(content)
 }
 
 
@@ -85,6 +96,8 @@ let cancelButton = document.querySelector('.cancel')
 let newNoteButton = document.querySelector('.new')
 
 let saveButton = document.querySelector('.save')
+
+let listedItem = document.querySelectorAll('li')
 
 darkModeButton.addEventListener('click', toggleDarkMode)
 

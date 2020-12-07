@@ -121,9 +121,26 @@ section.flex{
 }
 
 nav.darkmode{
-    background-color: darkslategrey;
+    background-color: #303030;
+    color: lightgray;
 }
 
 section.darkmode{
-    background-color: gray;
+    background-color: #545454;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav{
+        padding-left: 5%;
+        margin-right: 0px;
+        flex-grow: 1;
+    }
+    section{
+        flex-grow: 1;
+    }
 }
